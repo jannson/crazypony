@@ -1,0 +1,12 @@
+
+T1350 003:072 SEGGER J-Link V4.15n (beta) Log File (0000ms, 0000ms total)
+T1350 003:072 DLL Compiled: Jun 18 2010 19:55:09 (0000ms, 0000ms total)
+T1350 003:072 Logging started @ 2014-04-08 15:25 (0000ms, 0000ms total)
+T1350 003:072 JLINK_SetWarnOutHandler(...) (0000ms, 0000ms total)
+T1350 003:072 JLINK_OpenEx(...)
+  ***** Error: Can not connect to J-Link via USB.  returns "Can not connect to J-Link via USB." (0001ms, 0000ms total)
+T1350 003:073 JLINK_Close() (0000ms, 0001ms total)
+
+  ***** API Error: API JLINK_GetIdData function called before JLINKARM_Open()
+T1350 003:073 
+  ***** Error: Can not connect to J-Link via USB.JLINK_GetCompileDateTime() (0000ms, 0001ms total)
