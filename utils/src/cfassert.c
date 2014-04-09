@@ -23,7 +23,7 @@
  *
  * cfassert.c - Assert implementation
  */
-
+#include "stm32f10x_conf.h"
 #include "cfassert.h"
 #include "uart.h"
 #include "led.h"

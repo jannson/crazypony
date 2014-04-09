@@ -59,9 +59,9 @@ static char address[4] = {0x00, 0x00, 0x00, 0xBB};
 static char packet[32];
 
 /* Synchronisation */
-xSemaphoreHandle dataRdy;
+static xSemaphoreHandle dataRdy;
 /* Data queue */
-xQueueHandle rxQueue;
+static xQueueHandle rxQueue;
 
 static struct {
   bool enabled;

@@ -42,10 +42,10 @@ static bool isInit;
 #define RADIO_CONNECTED_TIMEOUT   M2T(2000)
 
 /* Synchronisation */
-xSemaphoreHandle dataRdy;
+static xSemaphoreHandle dataRdy;
 /* Data queue */
-xQueueHandle txQueue;
-xQueueHandle rxQueue;
+static xQueueHandle txQueue;
+static xQueueHandle rxQueue;
 
 static uint32_t lastPacketTick;
 

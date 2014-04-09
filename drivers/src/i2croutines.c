@@ -41,7 +41,7 @@ extern uint8_t* Buffer_Tx1;
 /* Private macro -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
 DMA_InitTypeDef I2CDMA_InitStructure;
-__IO uint32_t I2CDirection = I2C_DIRECTION_TX;
+static __IO uint32_t I2CDirection = I2C_DIRECTION_TX;
 __IO uint32_t NumbOfBytes1;
 __IO uint32_t NumbOfBytes2;
 __IO uint8_t Address;
