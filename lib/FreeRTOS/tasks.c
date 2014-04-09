@@ -1800,7 +1800,7 @@ tskTCB * pxTCB;
 #endif /* configUSE_APPLICATION_TASK_TAG */
 /*-----------------------------------------------------------*/
 
-void __attribute__((used)) vTaskSwitchContext( void )
+void vTaskSwitchContext( void )
 {
 	if( uxSchedulerSuspended != ( unsigned portBASE_TYPE ) pdFALSE )
 	{
